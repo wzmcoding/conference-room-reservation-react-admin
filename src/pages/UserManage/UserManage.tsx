@@ -143,10 +143,10 @@ export function UserManage() {
             </Form>
         </div>
         <div className="userManage-table">
-            <Table columns={columns} dataSource={userResult} pagination={ {
+            <Table columns={columns} dataSource={userResult} pagination={{
                 current: pageNo,
                 pageSize: pageSize,
-                onChange: changePage
+                onChange: changePage,
             }}/>
         </div>
     </div>
