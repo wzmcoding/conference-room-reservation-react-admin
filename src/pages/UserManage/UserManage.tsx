@@ -5,13 +5,13 @@ import { ColumnsType } from "antd/es/table";
 import {userSearch, freeze} from "../../interfaces/interfaces";
 import {useForm} from "antd/es/form/Form";
 
-interface SearchUser {
+export interface SearchUser {
     username: string;
     nickName: string;
     email: string;
 }
 
-interface UserSearchResult {
+export interface UserSearchResult {
     id: number;
     username: string;
     nickName: string;
